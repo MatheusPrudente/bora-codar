@@ -1,0 +1,16 @@
+<div class="flex h-screen justify-center align-middle items-center mx-auto">
+  <div class="flex justify-center flex-col gap-8 m-auto p-8 sm:flex-row">
+    <ng-container *ngIf="!music" >
+      <div>
+          <app-card-music-vertical [showStatusBar]=true [showControls]=true [music]=musics[0] (click)="selectMusic(musics[0])"></app-card-music-vertical>
+      </div>
+      <div class="flex flex-col gap-8">
+          <app-card-music-horizontal [showStatusBar]=true [showControls]=true [music]=musics[1] (click)="selectMusic(musics[1])"></app-card-music-horizontal>
+          <app-card-music-horizontal [showStatusBar]=false [showControls]=true [music]=musics[2] (click)="selectMusic(musics[2])"></app-card-music-horizontal>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="music" >
+      <app-card-music [showStatusBar]=true [showControls]=true [music]=music></app-card-music>
+    </ng-container>
+  </div>
+</div>

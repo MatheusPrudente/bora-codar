@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: Roboto;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="range"]::-webkit-slider-thumb {
+    width: 0.38rem;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 0.738rem;
+    background: #D9D9D9;
+    box-shadow: -405px 0 0 400px #D9D9D9;
+    border-radius: 50%;
+  }
+}
