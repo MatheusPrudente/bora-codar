@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+@font-face {
+  font-family: Inter;
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+}
+
+:root {
+  --primary_100: #0f0d13;
+  --primary_200: #2a2141;
+  --gray_100: #a5a2b0;
+  --gray_200: #e1e1e6;
+
+  --outline: var(--gray_100) double 0.4rem;
+  --transition: 100ms;
+  --radius: 0.5rem;
+}
+
+
+max-width: 360px;
+padding-inline: 40px;
