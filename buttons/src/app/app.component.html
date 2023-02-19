@@ -1,127 +1,182 @@
-  <main class="grid grid-cols-3 text-white min-h-screen">
-    <section class="types col-span-2 bg-[#0B0911] py-20 px-10 hidden">
+<main class="grid grid-cols-1 lg:grid-cols-3 text-white max-w-[1450px] min-h-[100vh]">
+  <section class="types md:col-span-2 bg-[#0B0911] pt-[80px] pb-[2rem]">
+    <div class="px-[40px]">
       <h1 class="text-3xl font-bold">Tipos de botão</h1>
       <p class="font-normal text-base mb-16">
         Dentro de um layout, botões servem para destacar ações importantes a serem tomadas.
         <br>Acompanhe abaixo um exemplo de tipos e propriedades.
       </p>
-      <table class="table-auto">
-        <thead class="table-header-group">
-          <tr>
-            <th>
-            </th>
-            <th>Botão primário</th>
-            <th>Botão secundário</th>
-            <th>Botão terciário</th>
-            <th>Cursor</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>default</th>
-            <td>
-              <button class="hydrated">default primary</button>
-            </td>
-            <td>
-              <button class="hydrated">default secondary</button>
-            </td>
-            <td>
-              <button class="hydrated">default tertiary</button>
-            </td>
-            <td>
-              <div class="hydrated"></div>
-            </td>
-          </tr>
-          <tr>
-            <th>hover</th>
-            <td>
-              <button class="hydrated">hover primary</button>
-            </td>
-            <td>
-              <button class="hydrated">hover secondary</button>
-            </td>
-            <td>
-              <button class="hydrated">hover tertiary</button>
-            </td>
-            <td>
-              <div class="hydrated"></div>
-            </td>
-          </tr>
-          <tr>
-            <th>focus</th>
-            <td>
-              <button class="hydrated">focus primary</button>
-            </td>
-            <td>
-              <button class="hydrated">focus secondary</button>
-            </td>
-            <td>
-              <button class="hydrated">focus tertiary</button>
-            </td>
-            <td>
-              <div class="hydrated"></div>
-            </td>
-          </tr>
-          <tr>
-            <th>disabled</th>
-            <td>
-              <button class="hydrated">disabled primary</button>
-            </td>
-            <td>
-              <button class="hydrated">disabled secondary</button>
-            </td>
-            <td>
-              <button class="hydrated">disabled tertiary</button>
-            </td>
-            <td>
-              <div class="hydrated"></div>
-            </td>
-          </tr>
-          <tr>
-            <th>loading</th>
-            <td>
-              <button class="hydrated">loading primary</button>
-            </td>
-            <td>
-              <button class="hydrated">loading secondary</button>
-            </td>
-            <td>
-              <button class="hydrated">loading tertiary</button>
-            </td>
-            <td>
-              <div class="hydrated"></div>
-            </td>
-          </tr>
-          <tr>
-            <th>movable</th>
-            <td>
-              <button class="hydrated">movable primary</button>
-            </td>
-            <td>
-              <button class="hydrated">movable secondary</button>
-            </td>
-            <td>
-              <button class="hydrated">movable tertiary</button>
-            </td>
-              <td>
-                <div class="hydrated"></div>
+        <table class="w-full text-[11px] font-extralight text-center rounded border border-[#1C162C] border-spacing-0 uppercase">
+          <thead class="bg-[#1C162C]">
+            <tr>
+              <th scope="col" class="px-6 py-3">
+              </th>
+              <th scope="col" class="px-6 py-3">Botão primário</th>
+              <th scope="col" class="px-6 py-3">Botão secundário</th>
+              <th scope="col" class="px-6 py-3">Botão terciário</th>
+              <th scope="col" class="px-6 py-3">Cursor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="p-2 bg-[#1C162C]">default</th>
+              <td class="px-6 py-4">
+                <button class="custom-button primary">
+                  default tertiary
+                </button>
               </td>
-          </tr>
-        </tbody>
+              <td class="px-6 py-4">
+                <button class="custom-button secondary">
+                  default tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <button class="custom-button tertiary">
+                  default tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <div>
+                  <img src="../assets/cursor.png">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="p-2 bg-[#1C162C]">hover</th>
+              <td class="px-6 py-4">
+                <button class="custom-button custom-button-hover primary">
+                  hover tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <button class="custom-button custom-button-hover secondary">
+                  hover tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <button class="custom-button custom-button-hover tertiary">
+                  hover tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <div>
+                  <img src="../assets/cursor.png">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="p-2 bg-[#1C162C]">focus</th>
+              <td class="px-6 py-4">
+                <button class="custom-button custom-button-focus primary">
+                  focus tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <button class="custom-button custom-button-focus secondary">
+                  focus tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <button class="custom-button custom-button-focus tertiary">
+                  focus tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <div>
+                  <img src="../assets/cursor.png">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="p-2 bg-[#1C162C]">disabled</th>
+              <td class="px-6 py-4">
+                <button class="custom-button custom-button-disabled primary cursor-not-allowed" disabled>
+                  disabled tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <button class="custom-button custom-button-disabled secondary cursor-not-allowed" disabled>
+                  disabled tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <button class="custom-button custom-button-disabled tertiary cursor-not-allowed" disabled>
+                  disabled tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <div>
+                  <img src="../assets/cursor-disabled.png">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="p-2 bg-[#1C162C]">loading</th>
+              <td class="px-6 py-4">
+                <button class="custom-button primary cursor-progress">
+                  <i class="ph-circle-notch"></i>
+                  loading tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <button class="custom-button secondary cursor-progress">
+                  <i class="ph-circle-notch"></i>
+                  loading tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <button class="custom-button tertiary cursor-progress">
+                  <i class="ph-circle-notch"></i>
+                  loading tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <div>
+                  <img src="../assets/cursor-progress.png">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="p-2 bg-[#1C162C]">movable</th>
+              <td class="px-6 py-4">
+                <button class="custom-button primary cursor-move">
+                  <i class="ph-list"></i>
+                  movable tertiary
+                </button>            </td>
+              <td class="px-6 py-4">
+                <button class="custom-button secondary cursor-move">
+                  <i class="ph-list"></i>
+                  movable tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <button class="custom-button tertiary cursor-move">
+                  <i class="ph-list"></i>
+                  movable tertiary
+                </button>
+              </td>
+              <td class="px-6 py-4">
+                <div>
+                  <img src="../assets/cursor-move.png">
+                </div>
+              </td>
+            </tr>
+          </tbody>
       </table>
-    </section>
-    <section class="col-span-1 bg-[#130F1E] py-20 px-8 ">
-      <div class="max-w-[360px] px-[40px]">
-        <h1 class="text-3xl font-bold">Teste os botões</h1>
-        <p class="font-normal text-base mb-16">Interaja com os botões e observe a mudança de aparência e de cursores.</p>
-        <div class="flex flex-1 flex-col gap-y-8">
-          <button class="custom-button primary" (click)="loading($event)">INTERAJA COMIGO</button>
-          <button class="custom-button secondary">INTERAJA COMIGO</button>
-          <button class="custom-button tertiary cursor-move">
-            <i class="ph-list"></i>
-            INTERAJA COMIGO
-          </button>
-        </div>
+    </div>
+  </section>
+  <section class="col-span-1 bg-[#130F1E] flex flex-1 justify-center pt-[80px]">
+    <div class="max-w-[360px] px-[40px]">
+      <h1 class="text-3xl font-bold">Teste os botões</h1>
+      <p class="font-normal text-base mb-16">Interaja com os botões e observe a mudança de aparência e de cursores.</p>
+      <div class="flex flex-1 flex-col gap-y-8">
+        <button class="custom-button primary" (click)="loading($event)">INTERAJA COMIGO</button>
+        <button class="custom-button secondary">INTERAJA COMIGO</button>
+        <button class="custom-button tertiary cursor-move">
+          <i class="ph-list"></i>
+          INTERAJA COMIGO
+        </button>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
+</main>

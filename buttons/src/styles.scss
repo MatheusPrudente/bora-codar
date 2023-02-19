@@ -39,6 +39,24 @@
     gap: 8px;
   }
 
+  table   .custom-button {
+    font-size: 10px;
+    padding: 6px 12px;
+  }
+
+  .custom-button.custom-button-disabled {
+    opacity: 0.5;
+  }
+
+  .custom-button.custom-button-focus {
+    border: 2px solid #d9cdf7 !important;
+    outline : none !important;
+  }
+
+  .custom-button.custom-button-hover {
+    background-color: var(--bg-hover);
+  }
+
   .custom-button:hover {
     background-color: var(--bg-hover);
   }
