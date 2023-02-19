@@ -110,13 +110,18 @@
         </tbody>
       </table>
     </section>
-    <section class="tests col-span-1 bg-[#130F1E] py-20 px-8">
-      <h1 class="text-3xl font-bold">Teste os botões</h1>
-      <p class="font-normal text-base mb-16">Interaja com os botões e observe a mudança de aparência e de cursores.</p>
-      <div class="flex flex-1 flex-col gap-y-8">
-        <button class="block text-sm py-3 px-4 rounded-full font-medium bg-[#8257E5]">INTERAJA COMIGO</button>
-        <button class="block text-sm py-3 px-4 rounded-full font-medium bg-[#3C3748]">INTERAJA COMIGO</button>
-        <button class="block text-sm py-3 px-4 font-medium">INTERAJA COMIGO</button>
+    <section class="col-span-1 bg-[#130F1E] py-20 px-8 ">
+      <div class="max-w-[360px] px-[40px]">
+        <h1 class="text-3xl font-bold">Teste os botões</h1>
+        <p class="font-normal text-base mb-16">Interaja com os botões e observe a mudança de aparência e de cursores.</p>
+        <div class="flex flex-1 flex-col gap-y-8">
+          <button class="custom-button primary" (click)="loading($event)">INTERAJA COMIGO</button>
+          <button class="custom-button secondary">INTERAJA COMIGO</button>
+          <button class="custom-button tertiary cursor-move">
+            <i class="ph-list"></i>
+            INTERAJA COMIGO
+          </button>
+        </div>
       </div>
     </section>
   </main>

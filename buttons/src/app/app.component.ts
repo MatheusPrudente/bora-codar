@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'buttons';
+
+   loading(event : Event) {
+    const button = <HTMLButtonElement> event.currentTarget
+    button.classList.add("button-progress");
+    const text = button.textContent;
+    button.innerHTML = `<i class="ph-circle-notch"></i>${text}`
+  }
 }

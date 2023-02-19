@@ -7,23 +7,72 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
 
 @font-face {
   font-family: Inter;
   src: url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
 }
 
-:root {
-  --primary_100: #0f0d13;
-  --primary_200: #2a2141;
-  --gray_100: #a5a2b0;
-  --gray_200: #e1e1e6;
-
-  --outline: var(--gray_100) double 0.4rem;
-  --transition: 100ms;
-  --radius: 0.5rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+@layer components {
+  .custom-button {
+    background-color: var(--bg-default);
+    font-family: "Inter";
+    border: 0;
+    color: white;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 24px;
 
-max-width: 360px;
-padding-inline: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .custom-button:hover {
+    background-color: var(--bg-hover);
+  }
+
+  .custom-button:focus {
+    outline: 2px solid #d9cdf7;
+  }
+
+  h1 {
+    font-family: "Inter";
+    color: white;
+    font-size: 32px;
+  }
+
+  p {
+    margin-top: 8px;
+    color: white;
+    font-family: "Roboto";
+    opacity: 0.67;
+  }
+
+  .primary {
+    --bg-default: #8257e5;
+    --bg-hover: #9674e5;
+  }
+
+  .secondary {
+    --bg-default: #3c3748;
+    --bg-hover: #6a617f;
+  }
+
+  .tertiary {
+    --bg-default: transparent;
+    --bg-hover: transparent;
+  }
+}
+
