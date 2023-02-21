@@ -1,45 +1,45 @@
 <div class="grid place-content-center h-[100vh] w-[100vw]">
   <div id="calculator" class="calculator">
-    <div id="display" class="mt-[54px] px-[54px]">
-      <div id="last-calc" class="text-right text-[20px] text-[#6b6b6b]">1 + 1</div>
+    <div id="display" class="mt-[54px] px-[54px] max-h-[4.375rem] min-h-[4.375rem]">
+      <div id="last-calc" class="text-right text-[20px] text-[#6b6b6b]">{{ mathematicalFormula }}</div>
       <div id="result" class="mt-[8px] flex justify-between">
         <img src="../assets/equals.png" alt="sinal de igual" />
-        <span class="text-4xl text-[#ebebeb]">2</span>
+        <span class="text-4xl text-[#ebebeb]"> {{ resultMathematicalFormula }}</span>
       </div>
     </div>
     <div id="keyboard" class="grid gap-3 grid-cols-4 px-8 py-6">
-      <button class="secondary button">CE</button>
-      <button class="button">C</button>
-      <button class="button">
+      <button class="secondary button" (click)="clearAll()">CE</button>
+      <button class="button" (click)="remove()">C</button>
+      <button class="button" (click)="insert('%')">
         <img src="../assets/percent.png" alt="Percent" />
       </button>
-      <button class="button tertiary">
+      <button class="button tertiary" (click)="insert('÷')">
         <img src="../assets/divide.png" alt="Divide" />
       </button>
-      <button class="button">7</button>
-      <button class="button">8</button>
-      <button class="button">9</button>
-      <button class="tertiary button">
+      <button class="button" (click)="insert('7')">7</button>
+      <button class="button" (click)="insert('8')">8</button>
+      <button class="button" (click)="insert('9')">9</button>
+      <button class="tertiary button" (click)="insert('x')">
         <img src="../assets/x.png" alt="Multiplication" />
       </button>
-      <button class="button">4</button>
-      <button class="button">5</button>
-      <button class="button">6</button>
-      <button class="tertiary button">
+      <button class="button" (click)="insert('4')">4</button>
+      <button class="button" (click)="insert('5')">5</button>
+      <button class="button" (click)="insert('6')">6</button>
+      <button class="tertiary button" (click)="insert('-')">
         <img src="../assets/minus.png" alt="Minus" />
       </button>
-      <button class="button">1</button>
-      <button class="button">2</button>
-      <button class="button">3</button>
-      <button class="tertiary button">
+      <button class="button" (click)="insert('1')">1</button>
+      <button class="button" (click)="insert('2')">2</button>
+      <button class="button" (click)="insert('3')">3</button>
+      <button class="tertiary button" (click)="insert('+')">
         <img src="../assets/plus.png" alt="Plus" />
       </button>
       <button class="button">
         <img src="../assets/plusminus.png" alt="PlusMinus" />
       </button>
-      <button class="button">0</button>
-      <button class="button">,</button>
-      <button class="quartiary button">
+      <button class="button" (click)="insert('0')">0</button>
+      <button class="button" (click)="insert(',')">,</button>
+      <button class="quartiary button" (click)="result()">
         <img src="../assets/equals.png" alt="Equals" />
       </button>
     </div>
