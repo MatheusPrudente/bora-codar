@@ -1,6 +1,5 @@
 <div id="boarding-pass">
-    <h1>Cartão de embarque</h1>
-    <main id="ticket">
+    <main id="ticket" (mousemove)="ticketEffect($event)" (mouseleave)="ticketBack()" (mouseenter)="ticketEnter()">
       <section class="top grid">
         <div class="flight grid column">
           <div class="number">
@@ -63,7 +62,4 @@
         <p><strong>Atenção:</strong> o portão fecha 16:45</p>
       </section>
     </main>
-    <footer>
-      Qualquer problema procure o balcão de atendimento da sua companhia aérea
-    </footer>
   </div>

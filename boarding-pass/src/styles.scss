@@ -19,10 +19,10 @@ body {
   font-family: "Rubik", sans-serif;
   letter-spacing: -0.02em;
 
-  background: linear-gradient(167.96deg, #8257e5 0%, #271a45 100%) no-repeat
-    fixed;
+  background: linear-gradient(167.96deg, #8257e5 0%, #271a45 100%) no-repeat fixed;
 
-  height: 100vh;
-  display: grid;
-  place-content: center;
+  /*height: 100vh;*/
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }

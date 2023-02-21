@@ -37,8 +37,8 @@ strong {
 }
 
 section {
-  padding: 2.4rem 3.2rem;
-
+  /*padding: 2.4rem 3.2rem;*/
+  padding: 2rem 3rem;
   background-color: white;
   -webkit-mask: var(--mask);
   mask: var(--mask);
@@ -136,14 +136,4 @@ dt time {
 
 .qrcode.grid {
   justify-items: center;
-}
-
-footer {
-  font-size: 1.4rem;
-  line-height: 2.4rem;
-  color: white;
-  opacity: 0.64;
-  width: 27rem;
-  text-align: center;
-  margin: 2rem auto;
 }
