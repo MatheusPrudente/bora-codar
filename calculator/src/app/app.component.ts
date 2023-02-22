@@ -36,8 +36,4 @@ export class AppComponent {
   result() {
     this.mathematicalFormula = "";
   }
-
-  changeSinal() {
-
-  }
 }
