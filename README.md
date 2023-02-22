@@ -9,12 +9,11 @@ Como participar do desafio:
 
 Resultados dos desafios:
 
-| Challenge	   |   Code	|
-|---|---|
-| Music Player | [01-music-player](https://github.com/MatheusPrudente/bora-codar/tree/main/player-music) |
-| Product Card | [02-product-card](https://github.com/MatheusPrudente/bora-codar/tree/main/card-product) |
-| Buttons and Cursors | [03-Buttons and Cursors](https://github.com/MatheusPrudente/bora-codar/tree/main/buttons) |
-| Chat | [04-chat](https://github.com/MatheusPrudente/bora-codar/tree/main/chat) |
-| Calculator | [05-calculator](https://github.com/MatheusPrudente/bora-codar/tree/main/calculator) |
-| Boarding Pass | [06-boarding-pass](https://github.com/MatheusPrudente/bora-codar/tree/main/boarding-pass) |
-
+| Semana | Desafio	   |   Objetivo	|   Código	| 
+|---|---|---|---|
+| Semana 01 | Music Player | Codar um player de música | [Music Player](https://github.com/MatheusPrudente/bora-codar/tree/main/player-music) |
+| Semana 02 | Product Card | Codar um card de produto | [Product Card](https://github.com/MatheusPrudente/bora-codar/tree/main/card-product) |
+| Semana 03 | Buttons and Cursors | Codar botões e cursores | [Buttons and Cursors](https://github.com/MatheusPrudente/bora-codar/tree/main/buttons) |
+| Semana 04 | Chat | Codar um chat |[Chat](https://github.com/MatheusPrudente/bora-codar/tree/main/chat) |
+| Semana 05 | Calculator | Codar uma calculadora | [Calculator](https://github.com/MatheusPrudente/bora-codar/tree/main/calculator) |
+| Semana 06 | Boarding Pass | Codar um cartão de embarque | [Boarding Pass](https://github.com/MatheusPrudente/bora-codar/tree/main/boarding-pass) |
