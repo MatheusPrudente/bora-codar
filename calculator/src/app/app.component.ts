@@ -72,6 +72,7 @@ export class AppComponent {
       if (this.mathematicalFormula.length <= 0) {
         return false;
       }
+
       if(!this.isNumber(this.mathematicalFormula.at(-1))) {
         return false;
       }
