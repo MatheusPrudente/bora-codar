@@ -17,3 +17,5 @@ Resultados dos desafios:
 | Semana 04 | Chat | Codar um chat |[Chat](https://github.com/MatheusPrudente/bora-codar/tree/main/chat) |
 | Semana 05 | Calculator | Codar uma calculadora | [Calculator](https://github.com/MatheusPrudente/bora-codar/tree/main/calculator) |
 | Semana 06 | Boarding Pass | Codar um cartão de embarque | [Boarding Pass](https://github.com/MatheusPrudente/bora-codar/tree/main/boarding-pass) |
+| Semana 07 | Carnival Block | Codar um site de blocos de carnaval | [Carnival Block](https://github.com/MatheusPrudente/bora-codar/tree/main/carnival-block) |
+| Semana 08 | Dashboard | Codar um Dashboard | [Dashboard](https://github.com/MatheusPrudente/bora-codar/tree/main/dashboard) |
