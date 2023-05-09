@@ -9,7 +9,7 @@ Como participar do desafio:
 
 Resultados dos desafios:
 
-| Semana | Desafio	   |   Objetivo	|   Código	| 
+| Semana | Desafio	   |   Objetivo	|   Código	|
 |---|---|---|---|
 | Semana 01 | Music Player | Codar um player de música | [Music Player](https://github.com/MatheusPrudente/bora-codar/tree/main/player-music) |
 | Semana 02 | Product Card | Codar um card de produto | [Product Card](https://github.com/MatheusPrudente/bora-codar/tree/main/card-product) |
@@ -19,3 +19,12 @@ Resultados dos desafios:
 | Semana 06 | Boarding Pass | Codar um cartão de embarque | [Boarding Pass](https://github.com/MatheusPrudente/bora-codar/tree/main/boarding-pass) |
 | Semana 07 | Carnival Block | Codar um site de blocos de carnaval | [Carnival Block](https://github.com/MatheusPrudente/bora-codar/tree/main/carnival-block) |
 | Semana 08 | Dashboard | Codar um Dashboard | [Dashboard](https://github.com/MatheusPrudente/bora-codar/tree/main/dashboard) |
+| Semana 09 |  |  |  |
+| Semana 10 |  |  |  |
+| Semana 11 |  |  |  |
+| Semana 12 |  |  |  |
+| Semana 13 |  |  |  |
+| Semana 14 |  |  |  |
+| Semana 15 |  |  |  |
+| Semana 16 |  |  |  |
+| Semana 17 | Date Picker  | codar um date picker | [Date Picker](https://github.com/MatheusPrudente/bora-codar/tree/main/date-picker) |
