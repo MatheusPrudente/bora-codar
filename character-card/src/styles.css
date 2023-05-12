@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: linear-gradient(102.32deg, #030422 -2.74%, #090114 101.6%);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+
+.card-back {
+  box-shadow: 0px 294px 118px rgba(0, 0, 0, 0.03),
+    0px 165px 99px rgba(0, 0, 0, 0.1), 0px 73px 73px rgba(0, 0, 0, 0.17),
+    0px 18px 40px rgba(0, 0, 0, 0.2), 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-back:first-child {
+  background-image: url("./assets/finn.png");
+}
+
+.card-back:last-child {
+  background-image: url("./assets/bb-8.png");
+}
+
+.card-back h1 {
+  -webkit-text-stroke: 1px #312d74;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-front {
+  background-image: url("./assets/bg-card-main.png");
+  background-repeat: no-repeat;
+}

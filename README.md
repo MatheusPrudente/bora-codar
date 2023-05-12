@@ -28,3 +28,4 @@ Resultados dos desafios:
 | Semana 15 |  |  |  |
 | Semana 16 |  |  |  |
 | Semana 17 | Date Picker  | codar um date picker | [Date Picker](https://github.com/MatheusPrudente/bora-codar/tree/main/date-picker) |
+| Semana 18 | Character Card  | codar um card de personagem | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/character-card) |
