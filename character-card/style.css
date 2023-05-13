@@ -1,18 +1,32 @@
 * {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --title : #ECE4EF;
+  --description : #D8CEDE;
+  --description-info: #9C83A7;
+}
 
 body {
+  width: 100%;
+  height: 100vh;
   background: linear-gradient(102.32deg, #030422 -2.74%, #090114 101.6%);
   font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container {
+.container, .cards {
   display: flex;
-  gap: 2rem;
+  align-items: center;
 }
+
 .card-back {
   box-shadow: 0px 294px 118px rgba(0, 0, 0, 0.03),
   0px 165px 99px rgba(0, 0, 0, 0.1), 0px 73px 73px rgba(0, 0, 0, 0.17),
@@ -24,6 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  border-radius: 2rem;
 }
 
 .card-back:first-child {
@@ -42,4 +57,64 @@ body {
 .card-front {
   background-image: url("./assets/bg-card-main.png");
   background-repeat: no-repeat;
+  width: 436px ;
+  height: 608px;
+  border-radius: 20px;
+  box-shadow: 0px 294px 118px rgba(0, 0, 0, 0.03),
+  0px 165px 99px rgba(0, 0, 0, 0.1), 0px 73px 73px rgba(0, 0, 0, 0.17),
+  0px 18px 40px rgba(0, 0, 0, 0.2), 0px 0px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.card-info {
+  padding: 48px 120px 60px 40px;
+}
+
+.card-info header{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 300px;
+  margin-bottom: 60px;
+}
+
+.card-info h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-shadow: 0px 0px 0px rgba(255, 255, 255, 0.4);
+  color: var(--title);
+}
+
+.card-info span {
+  color: var(--description);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.img-main {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 210px;
+}
+
+main .info h4 {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--title);
+}
+
+main .info span {
+  color: var(--description-info);
+  font-size: 14px;
+  line-height: 18px;
 }

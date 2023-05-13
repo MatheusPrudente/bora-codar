@@ -1,0 +1,3 @@
+new Atropos({
+  el: ".atropos",
+});
