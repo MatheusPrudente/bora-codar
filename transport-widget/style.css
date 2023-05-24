@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-family: 'Inter',sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background-color: #121214;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.card {
+  flex-direction: column;
+  gap : 96px;
+  padding: 24px 56px;
+  border-radius: 40px;
+  background-color: white;
+  max-width: 795px;
+}
+
+.card-header h1 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #372D4293;
+}
+
+.card-header h1 span {
+  color: #864293;
+}
+
+.card-header p {
+  font-size: 24px;
+  line-height: 32px;
+  color: #372D4293;
+}
+
+.card-drag {
+  width: 168px;
+  height: 18px;
+  background-color: #E5D8EA;
+  margin-inline: auto;
+  border-radius: 999px;
+}
+
+.card-body {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body .card-left {
+  align-items: center;
+}
+
+.driver {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.driver-avatar img {
+  width: 138px;
+  height: 138px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.driver-stars {
+  align-items: center;
+  justify-content: center;
+  color : #FBF8FC;
+  background-color: #372D3B;
+  border-radius: 999px;
+  height: 32px;
+  gap : 10px;
+  width: 100px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-top: -32px;
+}
+
+.driver-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #372D3B;
+  margin-top: 6px;
+}
+
+.car-image {
+  margin-left: -50px;
+}
+
+.car-plate {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  color: #372D3B;
+}
+
+.car-model {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #372D3B;
+  margin-top: 12px;
+}
+
+.card-footer {
+  gap : 32px;
+  align-items: center;
+}
+
+.input-wrapper {
+  border-radius: 24px;
+  background: #F5EDF7;
+
+  height: 64px;
+  flex: 3;
+  padding: 0 32px;
+}
+
+.input-wrapper label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+
+  clip: rect(0,0,0,0);
+  border-width: 0;
+  white-space: nowrap;
+}
+
+.input-wrapper input {
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #372D3B;
+}
+
+.input-wrapper input:focus {
+  outline: 0;
+}
+
+.input-wrapper input:focus-within {
+  outline: 3px solid black;
+}
+
+.card-footer .ph-fill {
+  font-size: 56px;
+}
