@@ -29,3 +29,7 @@ Resultados dos desafios:
 | Semana 16 |  |  |  |
 | Semana 17 | Date Picker  | codar um date picker | [Date Picker](https://github.com/MatheusPrudente/bora-codar/tree/main/date-picker) |
 | Semana 18 | Character Card  | codar um card de personagem | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/character-card) |
+| Semana 19 | Transport Widget | codar um widget de transporte | [Transport Widget](https://github.com/MatheusPrudente/bora-codar/tree/main/transport-widget) |
+| Semana 20 | Gallery  | codar uma galeria com hover | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/gallery) |
+| Semana 21 | Shopping Cart | codar um carrinho de compras | [Shopping Cart](https://github.com/MatheusPrudente/bora-codar/tree/main/shopping-cart) |
+

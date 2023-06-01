@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing : antialised;
+  -moz-osx-font-smoothing : grayscale;
+}
+
+:root {
+  font-family: 'Hepta Slab', sans-serif;
+  font-size: 50%;
+  --background-color : #121214;
+  --text-color : white;
+}
+
+body {
+  background-color: var(--background-color);
+  color:  var(--text-color);
+
+  padding: 14rem 13.4rem 14rem 11rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.grid {
+  display: grid;
+  gap: 3.2rem;
+}
+
+header {
+  position: fixed;
+  max-width: 30rem;
+}
+
+header h1 {
+  font-size: 4.8rem;
+  font-weight: 400;
+}
+
+header i {
+  font-size: 3.2rem;
+  display: block;
+  margin-top: 3.2rem;
+}
+
+main {
+  margin-left: 50.6rem;
+}
+
+.model-one .container:nth-child(1) {
+  grid-row: 1/3;
+}
+
+.model-one .container:nth-child(1) img,
+.model-two .container:nth-child(1) img {
+  aspect-ratio: 9/16;
+}
+
+.horizontal {
+  grid-column: 1/3;
+}
+
+.horizontal img {
+  aspect-ratio: 16/9;
+}
+
+.model-two .container:nth-child(3) {
+  grid-column: 2;
+  grid-column: 1/3;
+}
+
+.container {
+  position: relative;
+  outline: 4px solid transparent;
+  transition: all .4s;
+}
+
+.container span {
+  font-size: 2rem;
+  display: block;
+  width: 100%;
+  padding: 2.4rem;
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, transparent, black 80%);
+  visibility: hidden;
+  opacity: 0;
+  transition: all .4s;
+}
+
+.container:hover span{
+  visibility: visible;
+  opacity: 1;
+}
+
+.container:hover {
+  outline-color: white ;
+}
+
