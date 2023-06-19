@@ -17,15 +17,15 @@
   <main id="app">
     <form>
       <div class="step-progress">
-        <strong class="active">Contato</strong>
+        <strong class="active" data-step>Contato</strong>
         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1.41663 2L6.41663 7L1.41663 12" stroke="#323238" stroke-width="2" stroke-linecap="square"/>
         </svg>
-        <strong>Empresa</strong>
+        <strong  data-step>Empresa</strong>
         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1.41663 2L6.41663 7L1.41663 12" stroke="#323238" stroke-width="2" stroke-linecap="square"/>
         </svg>
-        <strong>Projeto</strong>
+        <strong data-step>Projeto</strong>
       </div>
       <div class="form-step active">
         <div class="content">
@@ -44,10 +44,10 @@
           </div>
         </div>
         <div class="button-wrapper justify-end">
-          <button class="btn primary" type="button"> CONTINUAR </button>
+          <button class="btn primary" type="button" data-action="next"> CONTINUAR </button>
         </div>
       </div>
-      <div class="form-step ">
+      <div class="form-step hide">
         <div class="content">
           <div class="input-wrapper">
             <label for="business-name">Nome da empresa</label>
@@ -63,11 +63,11 @@
           </div>
         </div>
         <div class="button-wrapper">
-          <button class="btn secondary" type="button"> VOLTAR </button>
-          <button class="btn primary" type="button"> CONTINUAR </button>
+          <button class="btn secondary" type="button" data-action="prev"> VOLTAR </button>
+          <button class="btn primary" type="button" data-action="next"> CONTINUAR </button>
         </div>
       </div>
-      <div class="form-step ">
+      <div class="form-step hide">
         <div class="content">
           <div class="input-wrapper">
             <label for="project">Objetivos do projeto</label>
@@ -75,7 +75,7 @@
           </div>
         </div>
         <div class="button-wrapper">
-          <button class="btn secondary" type="button"> VOLTAR </button>
+          <button class="btn secondary" type="button" data-action="prev"> VOLTAR </button>
           <button class="btn primary" type="submit"> ENVIAR </button>
         </div>
       </div>
