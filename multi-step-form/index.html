@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/script.js" defer></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <title>Multi Step Form BoraCodar #23</title>
+</head>
+<body>
+  <main id="app">
+    <form>
+      <div class="step-progress">
+        <strong class="active">Contato</strong>
+        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.41663 2L6.41663 7L1.41663 12" stroke="#323238" stroke-width="2" stroke-linecap="square"/>
+        </svg>
+        <strong>Empresa</strong>
+        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.41663 2L6.41663 7L1.41663 12" stroke="#323238" stroke-width="2" stroke-linecap="square"/>
+        </svg>
+        <strong>Projeto</strong>
+      </div>
+      <div class="form-step active">
+        <div class="content">
+          <div class="input-wrapper">
+            <label for="name">Nome</label>
+            <input name="name" id="name" type="text" placeholder="Como prefere ser chamado" required>
+          </div>
+          <div class="input-wrapper">
+            <label for="phone">Telefone</label>
+            <input name="phone" id="phone" type="tel" placeholder="Digite seu número de WhatsApp"
+            onkeypress="return /\d/.test(event.key)">
+          </div>
+          <div class="input-wrapper">
+            <label for="email">E-mail</label>
+            <input name="email" id="email" type="email" placeholder="Digite seu e-mail" required>
+          </div>
+        </div>
+        <div class="button-wrapper justify-end">
+          <button class="btn primary" type="button"> CONTINUAR </button>
+        </div>
+      </div>
+      <div class="form-step ">
+        <div class="content">
+          <div class="input-wrapper">
+            <label for="business-name">Nome da empresa</label>
+            <input name="business-name" id="business-name" type="text" placeholder="Qual é o nome da empresa">
+          </div>
+          <div class="input-wrapper">
+            <label for="business-colab-number">Número de funcionários</label>
+            <input name="business-colab-number" id="business-colab-number" type="text" placeholder="Digite o número de colaboradores" onkeypress="return /\d/.test(event.key)">
+          </div>
+          <div class="input-wrapper">
+            <label for="business-about">Sobre seu negócio</label>
+            <textarea name="business-about" id="business-about" placeholder="Fale um pouco sobre seus produtos ou serviços"></textarea>
+          </div>
+        </div>
+        <div class="button-wrapper">
+          <button class="btn secondary" type="button"> VOLTAR </button>
+          <button class="btn primary" type="button"> CONTINUAR </button>
+        </div>
+      </div>
+      <div class="form-step ">
+        <div class="content">
+          <div class="input-wrapper">
+            <label for="project">Objetivos do projeto</label>
+            <textarea name="project" id="project" placeholder="Descreva quais os objetivos desse projeto"></textarea>
+          </div>
+        </div>
+        <div class="button-wrapper">
+          <button class="btn secondary" type="button"> VOLTAR </button>
+          <button class="btn primary" type="submit"> ENVIAR </button>
+        </div>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
