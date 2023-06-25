@@ -42,11 +42,11 @@ body {
 }
 
 .card-back:first-child {
-  background-image: url("./assets/finn.png");
+  background-image: url("../images/finn.png");
 }
 
 .card-back:last-child {
-  background-image: url("./assets/bb-8.png");
+  background-image: url("../images/bb-8.png");
 }
 
 .card-back h1 {
@@ -55,7 +55,7 @@ body {
 }
 
 .card-front {
-  background-image: url("./assets/bg-card-main.png");
+  background-image: url("../images/bg-card-main.png");
   background-repeat: no-repeat;
   width: 436px ;
   height: 608px;
