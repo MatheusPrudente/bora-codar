@@ -22,7 +22,7 @@ Resultados dos desafios:
 | Semana 09 | Currency Converter | Codar um conversor de moeda | [Currency Converter](https://github.com/MatheusPrudente/bora-codar/tree/main/09-currency-converter) |
 | Semana 10 | Weather Forecast | Codar uma página de previsão de tempo | [Weather Forecast](https://github.com/MatheusPrudente/bora-codar/tree/main/10-weather-forecast)|
 | Semana 11 | Login | Codar uma página de Login | [Login](https://github.com/MatheusPrudente/bora-codar/tree/main/11-login)|
-| Semana 12 |  |  |  |
+| Semana 12 | Kanban | Codar um Kanban | [Kanban](https://github.com/MatheusPrudente/bora-codar/tree/main/12-kanban) |
 | Semana 13 |  |  |  |
 | Semana 14 |  |  |  |
 | Semana 15 |  |  |  |
