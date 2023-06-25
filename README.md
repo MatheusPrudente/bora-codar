@@ -11,8 +11,8 @@ Resultados dos desafios:
 
 | Semana | Desafio	   |   Objetivo	|   Código	|
 |---|---|---|---|
-| Semana 01 | Music Player | Codar um player de música | [Music Player](https://github.com/MatheusPrudente/bora-codar/tree/main/01-player-music) |
-| Semana 02 | Product Card | Codar um card de produto | [Product Card](https://github.com/MatheusPrudente/bora-codar/tree/main/02-card-product) |
+| Semana 01 | Music Player | Codar um player de música | [Music Player](https://github.com/MatheusPrudente/bora-codar/tree/main/01-music-player) |
+| Semana 02 | Product Card | Codar um card de produto | [Product Card](https://github.com/MatheusPrudente/bora-codar/tree/main/02-product-card) |
 | Semana 03 | Buttons and Cursors | Codar botões e cursores | [Buttons and Cursors](https://github.com/MatheusPrudente/bora-codar/tree/main/03-buttons) |
 | Semana 04 | Chat | Codar um chat |[Chat](https://github.com/MatheusPrudente/bora-codar/tree/main/04-chat) |
 | Semana 05 | Calculator | Codar uma calculadora | [Calculator](https://github.com/MatheusPrudente/bora-codar/tree/main/05-calculator) |
