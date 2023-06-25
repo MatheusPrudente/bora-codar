@@ -19,7 +19,7 @@ Resultados dos desafios:
 | Semana 06 | Boarding Pass | Codar um cartão de embarque | [Boarding Pass](https://github.com/MatheusPrudente/bora-codar/tree/main/06-boarding-pass) |
 | Semana 07 | Carnival Block | Codar um site de blocos de carnaval | [Carnival Block](https://github.com/MatheusPrudente/bora-codar/tree/main/07-carnival-block) |
 | Semana 08 | Dashboard | Codar um Dashboard | [Dashboard](https://github.com/MatheusPrudente/bora-codar/tree/main/08-dashboard) |
-| Semana 09 |  |  |  |
+| Semana 09 | Currency Converter | Currency Converter | [Currency Converter](https://github.com/MatheusPrudente/bora-codar/tree/main/09-currency-converter) |
 | Semana 10 |  |  |  |
 | Semana 11 |  |  |  |
 | Semana 12 |  |  |  |
