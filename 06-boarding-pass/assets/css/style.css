@@ -1,3 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: -0.02em;
+
+  background: linear-gradient(167.96deg, #8257e5 0%, #271a45 100%) no-repeat
+    fixed;
+
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
 
 .grid {
   display: grid;
@@ -37,8 +61,8 @@ strong {
 }
 
 section {
-  /*padding: 2.4rem 3.2rem;*/
-  padding: 2rem 3rem;
+  padding: 2.4rem 3.2rem;
+
   background-color: white;
   -webkit-mask: var(--mask);
   mask: var(--mask);
@@ -47,7 +71,7 @@ section {
 }
 
 #boarding-pass {
-  margin: 8px;
+  margin: auto;
 }
 
 #ticket {
@@ -136,4 +160,14 @@ dt time {
 
 .qrcode.grid {
   justify-items: center;
+}
+
+footer {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: white;
+  opacity: 0.64;
+  width: 27rem;
+  text-align: center;
+  margin: 2rem auto;
 }
