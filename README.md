@@ -11,14 +11,14 @@ Resultados dos desafios:
 
 | Semana | Desafio	   |   Objetivo	|   Código	|
 |---|---|---|---|
-| Semana 01 | Music Player | Codar um player de música | [Music Player](https://github.com/MatheusPrudente/bora-codar/tree/main/player-music) |
-| Semana 02 | Product Card | Codar um card de produto | [Product Card](https://github.com/MatheusPrudente/bora-codar/tree/main/card-product) |
-| Semana 03 | Buttons and Cursors | Codar botões e cursores | [Buttons and Cursors](https://github.com/MatheusPrudente/bora-codar/tree/main/buttons) |
-| Semana 04 | Chat | Codar um chat |[Chat](https://github.com/MatheusPrudente/bora-codar/tree/main/chat) |
-| Semana 05 | Calculator | Codar uma calculadora | [Calculator](https://github.com/MatheusPrudente/bora-codar/tree/main/calculator) |
-| Semana 06 | Boarding Pass | Codar um cartão de embarque | [Boarding Pass](https://github.com/MatheusPrudente/bora-codar/tree/main/boarding-pass) |
-| Semana 07 | Carnival Block | Codar um site de blocos de carnaval | [Carnival Block](https://github.com/MatheusPrudente/bora-codar/tree/main/carnival-block) |
-| Semana 08 | Dashboard | Codar um Dashboard | [Dashboard](https://github.com/MatheusPrudente/bora-codar/tree/main/dashboard) |
+| Semana 01 | Music Player | Codar um player de música | [Music Player](https://github.com/MatheusPrudente/bora-codar/tree/main/01-player-music) |
+| Semana 02 | Product Card | Codar um card de produto | [Product Card](https://github.com/MatheusPrudente/bora-codar/tree/main/02-card-product) |
+| Semana 03 | Buttons and Cursors | Codar botões e cursores | [Buttons and Cursors](https://github.com/MatheusPrudente/bora-codar/tree/main/03-buttons) |
+| Semana 04 | Chat | Codar um chat |[Chat](https://github.com/MatheusPrudente/bora-codar/tree/main/04-chat) |
+| Semana 05 | Calculator | Codar uma calculadora | [Calculator](https://github.com/MatheusPrudente/bora-codar/tree/main/05-calculator) |
+| Semana 06 | Boarding Pass | Codar um cartão de embarque | [Boarding Pass](https://github.com/MatheusPrudente/bora-codar/tree/main/05-boarding-pass) |
+| Semana 07 | Carnival Block | Codar um site de blocos de carnaval | [Carnival Block](https://github.com/MatheusPrudente/bora-codar/tree/main/06-carnival-block) |
+| Semana 08 | Dashboard | Codar um Dashboard | [Dashboard](https://github.com/MatheusPrudente/bora-codar/tree/main/07-dashboard) |
 | Semana 09 |  |  |  |
 | Semana 10 |  |  |  |
 | Semana 11 |  |  |  |
@@ -27,12 +27,12 @@ Resultados dos desafios:
 | Semana 14 |  |  |  |
 | Semana 15 |  |  |  |
 | Semana 16 |  |  |  |
-| Semana 17 | Date Picker  | codar um date picker | [Date Picker](https://github.com/MatheusPrudente/bora-codar/tree/main/date-picker) |
-| Semana 18 | Character Card  | codar um card de personagem | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/character-card) |
-| Semana 19 | Transport Widget | codar um widget de transporte | [Transport Widget](https://github.com/MatheusPrudente/bora-codar/tree/main/transport-widget) |
-| Semana 20 | Gallery  | codar uma galeria com hover | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/gallery) |
-| Semana 21 | Shopping Cart | codar um carrinho de compras | [Shopping Cart](https://github.com/MatheusPrudente/bora-codar/tree/main/shopping-cart) |
+| Semana 17 | Date Picker  | codar um date picker | [Date Picker](https://github.com/MatheusPrudente/bora-codar/tree/main/17-date-picker) |
+| Semana 18 | Character Card  | codar um card de personagem | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/18-character-card) |
+| Semana 19 | Transport Widget | codar um widget de transporte | [Transport Widget](https://github.com/MatheusPrudente/bora-codar/tree/main/19-transport-widget) |
+| Semana 20 | Gallery  | codar uma galeria com hover | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/20-gallery) |
+| Semana 21 | Shopping Cart | codar um carrinho de compras | [Shopping Cart](https://github.com/MatheusPrudente/bora-codar/tree/main/21-shopping-cart) |
 | Semana 22 |  |  |  |
-| Semana 23 | Multi Step Form | codar um carrinho de compras formulário multi step | [Multi Step Form](https://github.com/MatheusPrudente/bora-codar/tree/main/multi-step-form) |
+| Semana 23 | Multi Step Form | codar um carrinho de compras formulário multi step | [Multi Step Form](https://github.com/MatheusPrudente/bora-codar/tree/main/23-multi-step-form) |
 
 
