@@ -16,9 +16,9 @@ Resultados dos desafios:
 | Semana 03 | Buttons and Cursors | Codar botões e cursores | [Buttons and Cursors](https://github.com/MatheusPrudente/bora-codar/tree/main/03-buttons) |
 | Semana 04 | Chat | Codar um chat |[Chat](https://github.com/MatheusPrudente/bora-codar/tree/main/04-chat) |
 | Semana 05 | Calculator | Codar uma calculadora | [Calculator](https://github.com/MatheusPrudente/bora-codar/tree/main/05-calculator) |
-| Semana 06 | Boarding Pass | Codar um cartão de embarque | [Boarding Pass](https://github.com/MatheusPrudente/bora-codar/tree/main/05-boarding-pass) |
-| Semana 07 | Carnival Block | Codar um site de blocos de carnaval | [Carnival Block](https://github.com/MatheusPrudente/bora-codar/tree/main/06-carnival-block) |
-| Semana 08 | Dashboard | Codar um Dashboard | [Dashboard](https://github.com/MatheusPrudente/bora-codar/tree/main/07-dashboard) |
+| Semana 06 | Boarding Pass | Codar um cartão de embarque | [Boarding Pass](https://github.com/MatheusPrudente/bora-codar/tree/main/06-boarding-pass) |
+| Semana 07 | Carnival Block | Codar um site de blocos de carnaval | [Carnival Block](https://github.com/MatheusPrudente/bora-codar/tree/main/07-carnival-block) |
+| Semana 08 | Dashboard | Codar um Dashboard | [Dashboard](https://github.com/MatheusPrudente/bora-codar/tree/main/08-dashboard) |
 | Semana 09 |  |  |  |
 | Semana 10 |  |  |  |
 | Semana 11 |  |  |  |
