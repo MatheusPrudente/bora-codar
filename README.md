@@ -27,12 +27,12 @@ Resultados dos desafios:
 | Semana 14 | Upload component| Codar um componente de upload | [Upload component](https://github.com/MatheusPrudente/bora-codar/tree/main/14-upload-component) |
 | Semana 15 | Pricing Table| Codar uma Pricing Table | [Pricing Table](https://github.com/MatheusPrudente/bora-codar/tree/main/15-pricing-table) |
 | Semana 16 | Contact page | Codar uma página de contato | [Contact page](https://github.com/MatheusPrudente/bora-codar/tree/main/16-contact-page) |
-| Semana 17 | Date Picker  | codar um date picker | [Date Picker](https://github.com/MatheusPrudente/bora-codar/tree/main/17-date-picker) |
-| Semana 18 | Character Card  | codar um card de personagem | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/18-character-card) |
-| Semana 19 | Transport Widget | codar um widget de transporte | [Transport Widget](https://github.com/MatheusPrudente/bora-codar/tree/main/19-transport-widget) |
-| Semana 20 | Gallery  | codar uma galeria com hover | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/20-gallery) |
-| Semana 21 | Shopping Cart | codar um carrinho de compras | [Shopping Cart](https://github.com/MatheusPrudente/bora-codar/tree/main/21-shopping-cart) |
-| Semana 22 |  |  |  |
+| Semana 17 | Date Picker  | Codar um date picker | [Date Picker](https://github.com/MatheusPrudente/bora-codar/tree/main/17-date-picker) |
+| Semana 18 | Character Card  | Codar um card de personagem | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/18-character-card) |
+| Semana 19 | Transport Widget | Codar um widget de transporte | [Transport Widget](https://github.com/MatheusPrudente/bora-codar/tree/main/19-transport-widget) |
+| Semana 20 | Gallery  | Codar uma galeria com hover | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/20-gallery) |
+| Semana 21 | Shopping Cart | Codar um carrinho de compras | [Shopping Cart](https://github.com/MatheusPrudente/bora-codar/tree/main/21-shopping-cart) |
+| Semana 22 | Profile Settings | Codar um profile settings| [Profile Settings](https://github.com/MatheusPrudente/bora-codar/tree/main/22-profile-settings) |
 | Semana 23 | Multi Step Form | codar um formulário multi step | [Multi Step Form](https://github.com/MatheusPrudente/bora-codar/tree/main/23-multi-step-form) |
 
 

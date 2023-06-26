@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smooth: antialiased;
+}
+
+body {
+  background: linear-gradient(107.54deg, #935FD3 0%, #9245F1 100%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Heebo', sans-serif;
+}
+
+.card {
+  width: 375px;
+  height: 584px;
+  background-color: #FDFCFE;
+  border-radius: 12px;
+  border: 1px solid #F4EFFA;
+  box-shadow: 0px 52px 21px rgba(30, 30, 30, 0.01), 0px 29px 18px rgba(30, 30, 30, 0.05), 0px 13px 13px rgba(30, 30, 30, 0.09), 0px 3px 7px rgba(30, 30, 30, 0.1), 0px 0px 0px rgba(30, 30, 30, 0.1);
+  padding: 24px 24px 16px 24px;
+}
+
+.avatar {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.avatar h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #38343D;
+}
+
+.avatar span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #686071;
+}
+
+hr {
+  border: 1px solid #F4EFFA;
+  margin: 16px 0;
+}
+
+label {
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 4%;
+  color: #797085;
+}
+
+.default {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.default section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.default div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.default div p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #38343D;
+}
+
+i {
+  font-size: 20px;
+  color: #38343D;
+}
+
+.ph-caret-right {
+  color: #797085;
+}
+
+#sign-out,
+.ph-sign-out {
+  color: #AA2222;
+}
