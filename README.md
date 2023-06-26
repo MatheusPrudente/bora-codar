@@ -33,6 +33,6 @@ Resultados dos desafios:
 | Semana 20 | Gallery  | codar uma galeria com hover | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/20-gallery) |
 | Semana 21 | Shopping Cart | codar um carrinho de compras | [Shopping Cart](https://github.com/MatheusPrudente/bora-codar/tree/main/21-shopping-cart) |
 | Semana 22 |  |  |  |
-| Semana 23 | Multi Step Form | codar um carrinho de compras formulário multi step | [Multi Step Form](https://github.com/MatheusPrudente/bora-codar/tree/main/23-multi-step-form) |
+| Semana 23 | Multi Step Form | codar um formulário multi step | [Multi Step Form](https://github.com/MatheusPrudente/bora-codar/tree/main/23-multi-step-form) |
 
 
