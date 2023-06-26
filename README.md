@@ -26,7 +26,8 @@ Resultados dos desafios:
 | Semana 13 | Card Form | Codar um formulário de cartão | [Card Form](https://github.com/MatheusPrudente/bora-codar/tree/main/12-card-form) |
 | Semana 14 | Upload component
  | Codar um componente de upload | [Upload component](https://github.com/MatheusPrudente/bora-codar/tree/main/14-upload-component) |
-| Semana 15 |  |  |  |
+| Semana 15 | Pricing Table
+ | Codar uma Pricing Table | [Pricing Table]((https://github.com/MatheusPrudente/bora-codar/tree/main/15-pricing-table)) |
 | Semana 16 |  |  |  |
 | Semana 17 | Date Picker  | codar um date picker | [Date Picker](https://github.com/MatheusPrudente/bora-codar/tree/main/17-date-picker) |
 | Semana 18 | Character Card  | codar um card de personagem | [Character Card](https://github.com/MatheusPrudente/bora-codar/tree/main/18-character-card) |
