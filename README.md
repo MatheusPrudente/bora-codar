@@ -23,8 +23,9 @@ Resultados dos desafios:
 | Semana 10 | Weather Forecast | Codar uma página de previsão de tempo | [Weather Forecast](https://github.com/MatheusPrudente/bora-codar/tree/main/10-weather-forecast)|
 | Semana 11 | Login | Codar uma página de Login | [Login](https://github.com/MatheusPrudente/bora-codar/tree/main/11-login)|
 | Semana 12 | Kanban | Codar um Kanban | [Kanban](https://github.com/MatheusPrudente/bora-codar/tree/main/12-kanban) |
-| Semana 13 |  |  |  |
-| Semana 14 |  |  |  |
+| Semana 13 | Card Form | Codar um formulário de cartão | [Card Form](https://github.com/MatheusPrudente/bora-codar/tree/main/12-card-form) |
+| Semana 14 | Upload component
+ | Codar um componente de upload | [Upload component](https://github.com/MatheusPrudente/bora-codar/tree/main/14-upload-component) |
 | Semana 15 |  |  |  |
 | Semana 16 |  |  |  |
 | Semana 17 | Date Picker  | codar um date picker | [Date Picker](https://github.com/MatheusPrudente/bora-codar/tree/main/17-date-picker) |
