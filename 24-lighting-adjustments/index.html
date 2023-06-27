@@ -1,18 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" />
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <script src="./assets/js/script.js" defer></script>
-  <script src="https://unpkg.com/@phosphor-icons/web"></script>
-  <title>Lighting adjustments - BoraCodar #24</title>
-</head>
-<body>
-</body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Lighting adjustments - BoraCodar #24</title>
+  </head>
+  <body>
+    <main>
+      <div class="preview"></div>
+      <span>Ajustes de Iluminação</span>
+      <div class="controls">
+        <div class="hue">
+          <i class="ph-thin ph-palette"></i>
+          <div>
+            <input type="range" id="hue-slider" min="0" max="360" step="1" value="0" />
+          </div>
+        </div>
+        <div class="brightness">
+          <i class="ph-thin ph-sun"></i>
+          <div>
+            <input type="range" id="brightness-slider" min="0" max="100" step="1" value="100" />
+          </div>
+        </div>
+        <div class="contrast">
+          <i class="ph-thin ph-circle-half"></i>
+          <div>
+            <input type="range" id="contrast-slider" min="0" max="100" step="1" value="100" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
