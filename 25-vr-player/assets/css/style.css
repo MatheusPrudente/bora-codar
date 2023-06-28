@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: grid;
+  place-content: center;
+  height: 100vh;
+
+  overflow: hidden;
+
+  backdrop-filter: brightness(0.5);
+}
+
+#app {
+  display: grid;
+  grid-template-areas:
+      'aside header'
+      'aside main'
+      'aside footer';
+
+  gap: 1.5rem;
+}
+
+header {
+  grid-area: header;
+}
+
+aside {
+  grid-area: aside;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.side-menu {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+
+  border-radius: 5rem;
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05), 0px 1px 1px 0px rgba(255, 255, 255, 0.30) inset, 0px -1px 1px 0px rgba(255, 255, 255, 0.10) inset;
+  backdrop-filter: blur(16px);
+
+  height: fit-content;
+  align-self: center;
+}
+
+.side-menu ion-icon {
+  display: flex;
+  padding: 0.5rem;
+  align-items: flex-start;
+  border-radius: 80px;
+
+  width: 1.5rem;
+  height: 1.5rem;
+
+  color: #FFFFFF;
+  opacity: 0.8;
+
+}
+
+.side-menu ion-icon:hover {
+  background: rgba(255, 255, 255, 0.20);
+  opacity: 1;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  border-radius: 5rem;
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05), 0px 1px 1px 0px rgba(255, 255, 255, 0.30) inset, 0px -1px 1px 0px rgba(255, 255, 255, 0.10) inset;
+  backdrop-filter: blur(16px);
+
+  width: fit-content;
+  justify-self: center;
+}
+
+.actions {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.actions ion-icon{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 5rem;
+
+  color: #FFFFFF;
+  opacity: 0.8;
+
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions i.ai-panel-left {
+  font-size: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 5rem;
+
+  color: #FFFFFF;
+  opacity: 0.8;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions ion-icon:hover, .actions i.ai-panel-left:hover {
+  background: rgba(255, 255, 255, 0.20);
+  opacity: 1;
+}
+
+.address-bar {
+  display: flex;
+  width: 27.5rem;
+  padding: 0.75rem;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 80px;
+  background: rgba(0, 0, 0, 0.10);
+  box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.10) inset, 0px 1px 0px 0px rgba(0, 0, 0, 0.20) inset;
+
+  color: rgba(255, 255, 255, 0.80);
+  font-size: 0.9375rem;
+  font-family: Inter;
+  line-height: 1.5rem;
+}
+
+.address-bar ion-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+
+  opacity: 0.8;
+}
+
+.rocket {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.rocket ion-icon{
+  width: 1rem;
+  height: 1rem;
+
+  margin-top: -2px;
+}
+
+
+
+.screen {
+  width: 60rem;
+  height: 33.75rem;
+
+  border-radius: 32px;
+
+  box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05);
+
+  border: 1px solid transparent;
+
+  position: relative;
+}
+
+.screen::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+      to right,
+      rgb(255 255 255 / 0.1),
+      rgb(255 255 255 / 0.6)
+  );
+
+  border-radius: inherit;
+
+  margin: -1px;
+
+  z-index: -1;
+}
+
+#video {
+  width: 100%;
+  height: 100%;
+
+  border-radius: inherit;
+}
+
+#ambient-light {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  pointer-events: none;
+  scale: 1.2;
+  filter: blur(100px) opacity(0.5) saturate(300%);
+
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0);
+}
+
+.interaction{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  justify-self: center;
+}
+
+.interaction .elipse{
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.60);
+  backdrop-filter: blur(2px);
+}
+
+.interaction .rectangle {
+  width: 5.375rem;
+  height: 0.5rem;
+
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.60);
+  backdrop-filter: blur(2px);
+}
+
+#app {
+  animation: appear 400ms 500ms backwards;
+}
+
+@keyframes appear {
+  from {
+      scale: 2;
+      opacity: 0;
+  }
+}

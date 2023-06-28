@@ -34,4 +34,5 @@ Resultados dos desafios:
 | Semana 21 | Shopping Cart | Codar um carrinho de compras | [Shopping Cart](https://github.com/MatheusPrudente/bora-codar/tree/main/21-shopping-cart) |
 | Semana 22 | Profile Settings | Codar um profile settings| [Profile Settings](https://github.com/MatheusPrudente/bora-codar/tree/main/22-profile-settings) |
 | Semana 23 | Multi Step Form | Codar um formulário multi step | [Multi Step Form](https://github.com/MatheusPrudente/bora-codar/tree/main/23-multi-step-form) |
-| Semana 24 | Lighting-Adjustments | codar um ajuste de iluminação | [Multi Step Form](https://github.com/MatheusPrudente/bora-codar/tree/main/24-lighting-adjustments) |
+| Semana 24 | Lighting Adjustments | codar um ajuste de iluminação | [Lighting Adjustments](https://github.com/MatheusPrudente/bora-codar/tree/main/24-lighting-adjustments) |
+| Semana 25 | VR Player | codar um ajuste de iluminação | [VR Player](https://github.com/MatheusPrudente/bora-codar/tree/main/25-vr-player) |
