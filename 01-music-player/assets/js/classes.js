@@ -1,8 +1,9 @@
 class Music {
-  constructor(name, band, url) {
+  constructor(name, band, thumbnail, url) {
     this.id = this.generateUniqueId(3);
     this.name = name;
     this.band = band;
+    this.thumbnail = thumbnail;
     this.url = url;
   }
 

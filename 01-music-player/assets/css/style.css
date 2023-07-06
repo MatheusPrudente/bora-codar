@@ -84,16 +84,20 @@ body * {
 #player-three {
   grid-area: C;
 }
+
+.selectable {
+  transition: all 0.3s ease-in-out;
+}
+
+.selectable:hover {
+  transform: scale(1.02);
+}
+
 .player {
   background-color: #2A2141;
   padding: 28px;
   border-radius: 10px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.player:hover {
-  transform: scale(1.02);
 }
 
 .player img {
