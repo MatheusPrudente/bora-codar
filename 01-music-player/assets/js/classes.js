@@ -19,7 +19,7 @@ class Music {
 }
 
 class Option {
-  constructor(id, classNames, orientation, information, trackTime, controls) {
+  constructor(id, classNames, orientation, information, trackTime, controls, functionalControls) {
     this.id = id;
     this.classNames = classNames;
     this.orientation = orientation;
@@ -28,5 +28,6 @@ class Option {
       trackTime : trackTime,
       controls : controls
     }
+    this.functionalControls = functionalControls
   }
 }
