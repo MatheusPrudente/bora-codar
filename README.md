@@ -36,3 +36,4 @@ Resultados dos desafios:
 | Semana 23 | Multi Step Form | Codar um formulário multi step | [Multi Step Form](https://github.com/MatheusPrudente/bora-codar/tree/main/23-multi-step-form) |
 | Semana 24 | Lighting Adjustments | codar um ajuste de iluminação | [Lighting Adjustments](https://github.com/MatheusPrudente/bora-codar/tree/main/24-lighting-adjustments) |
 | Semana 25 | VR Player | codar um ajuste de iluminação | [VR Player](https://github.com/MatheusPrudente/bora-codar/tree/main/25-vr-player) |
+| Semana 26 | June Recipe | codar uma receita junina | [June Recipe](https://github.com/MatheusPrudente/bora-codar/tree/main/26-june-recipe) |
