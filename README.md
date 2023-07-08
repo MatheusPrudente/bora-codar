@@ -1,4 +1,10 @@
 # bora-codar
+<p>
+    <img src="https://img.shields.io/github/languages/count/MatheusPrudente/bora-codar"/>
+    <img src="https://img.shields.io/github/repo-size/MatheusPrudente/bora-codar"/>
+    <img src="https://img.shields.io/github/last-commit/MatheusPrudente/bora-codar"/>
+    <img src="https://img.shields.io/github/issues/MatheusPrudente/bora-codar"/>
+</p>
 
 >O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
 
