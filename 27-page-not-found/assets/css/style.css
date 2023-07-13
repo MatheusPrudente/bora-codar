@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Outfit', sans-serif;
+}
+
+#app,
+body {
+  height: 100vh;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  padding: 0 10rem;
+}
+
+body {
+  background: url("../images/background.svg") no-repeat center center/cover;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  max-width: 23.75rem;
+  color: #d6d6f2;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 120%;
+}
+
+p {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.btn-wrapper {
+  margin-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  background: #151557;
+  border-radius: 62.43rem;
+  color: #e2e2f5;
+  font-weight: 500;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #212187;
+}
