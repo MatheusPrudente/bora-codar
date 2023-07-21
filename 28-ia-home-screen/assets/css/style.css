@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: var(--gray-02, #E2E8F0);
+}
+
+:root {
+  --color-gray-01: #f8fafc;
+  --color-gray-02: #e2e8f0;
+  --color-gray-03: #94a3b8;
+  --color-gray-04: #334155;
+  --color-gray-05: #1e293b;
+  --color-gray-06: #0f172a;
+  --color-gray-07: #020617;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1216px;
+  padding: 60px;
+  gap: 40px;
+  border-radius: 32px;
+  border: 1px solid var(--gray-04, #334155);
+  background: rgba(2, 6, 23, 0.80);
+}
+
+header {
+  margin-bottom: -16px;
+}
+
+header div img {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 16px;
+  border: 1px solid var(--gray-05, #1E293B);
+  background: var(--gray-06, #0F172A);
+}
+
+h1 {
+  color: var(--gray-01, #F8FAFC);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.ia-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tools {
+  justify-content: space-between;
+  width: 608px;
+  height: 96px;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid var(--gray-04, #334155);
+  background: var(--gray-06, #0F172A);
+}
+
+.tools div {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.icons {
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--gray-05, #1E293B);
+  background: var(--gray-06, #0F172A);
+}
+
+i {
+  font-size: 32px;
+  color: var(--color-gray-03);
+}
+
+.tools div p {
+  color: var(--gray-02, #E2E8F0);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.arrow {
+  padding: 16px;
+}
+
+hr {
+  width: 1096px;
+  height: 1px;
+  background: #334155;
+}
+
+.prompt {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+}
+
+.prompt>div {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px;
+  border: 1px solid var(--gray-04, #334155);
+  background: var(--gray-06, #0F172A);
+}
+
+.prompt div:first-child {
+  width: 100%;
+}
+
+button,
+input {
+  background-color: transparent;
+}
+
+input,
+input::placeholder {
+  width: 100%;
+  color: var(--gray-02, #E2E8F0);
+  font-size: 18px;
+  font-weight: 400;
+  outline: none;
+}
+
+.ph.ph-paper-plane-right:before {
+  color: var(--color-gray-01);
+}
+
+.tools,
+.prompt button,
+.ph-plus-circle {
+  cursor: pointer;
+}

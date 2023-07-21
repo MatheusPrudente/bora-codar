@@ -43,4 +43,5 @@ Resultados dos desafios:
 | Semana 24 | Lighting Adjustments | #boraCodar um ajuste de iluminação | [Lighting Adjustments](https://github.com/MatheusPrudente/bora-codar/tree/main/24-lighting-adjustments) |
 | Semana 25 | VR Player | #boraCodar um ajuste de iluminação | [VR Player](https://github.com/MatheusPrudente/bora-codar/tree/main/25-vr-player) |
 | Semana 26 | June Recipe | #boraCodar uma receita junina | [June Recipe](https://github.com/MatheusPrudente/bora-codar/tree/main/26-june-recipe) |
-| Semana 27 | Page Not Found | #boraCodar uma página de erro 404 | [Page Not Found ](https://github.com/MatheusPrudente/bora-codar/tree/main/27-page-not-found) |
+| Semana 27 | Page Not Found | #boraCodar uma página de erro 404 | [Page Not Found](https://github.com/MatheusPrudente/bora-codar/tree/main/27-page-not-found) |
+| Semana 28 | IA Home Screen | #boraCodar uma plataforma de IA | [IA Home Screen](https://github.com/MatheusPrudente/bora-codar/tree/main/28-ia-home-screen) |
