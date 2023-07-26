@@ -1,6 +1,6 @@
-# 00-default
+# 23-multi-step-form
 
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
+>Desenvolva um formulário dividido em etapas
 
 
 ## Tecnologias
