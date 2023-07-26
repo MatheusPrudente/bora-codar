@@ -1,7 +1,6 @@
-# 00-default
+# 07-carnival-block
 
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
-
+>Desenvolva uma página onde o usuário consiga buscar blocos de carnaval
 
 ## Tecnologias
 - HTML;
