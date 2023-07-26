@@ -1,6 +1,5 @@
-# 00-default
-
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
+# 21-shopping-cart
+>Desenvolva um carrinho de compras, um componente fundamental em qualquer e-commerce, que pode ser utilizado como um drawer ou dropdown em aplicações web ou mobile
 
 
 ## Tecnologias
