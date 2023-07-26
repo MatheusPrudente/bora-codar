@@ -1,7 +1,6 @@
-# 00-default
+# 27-page-not-found
 
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
-
+>Desenvolva página de erro 404 (página não encontrada), com animação
 
 ## Tecnologias
 - HTML;
