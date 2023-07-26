@@ -1,7 +1,6 @@
-# 00-default
+# 08-dashboard
 
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
-
+>Desenvolva uma dashboard
 
 ## Tecnologias
 - HTML;
