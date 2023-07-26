@@ -1,7 +1,6 @@
-# 00-default
+# 05-calculator
 
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
-
+> Desenvolva uma calculadora. Você pode ir além e adicionar estados para os botões e animações, por exemplo, além de tornar a calculadora funcional
 
 ## Tecnologias
 - HTML;
