@@ -1,7 +1,6 @@
-# 00-default
+# 3-card-form
 
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
-
+>Desenvolva um formulário de cartão de crédito
 
 ## Tecnologias
 - HTML;
