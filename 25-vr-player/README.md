@@ -1,7 +1,6 @@
-# 00-default
+# 25-vr-player
 
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
-
+>Desenvolva a versão web de uma experiência de player de vídeo em realidade virtual. 
 
 ## Tecnologias
 - HTML;
