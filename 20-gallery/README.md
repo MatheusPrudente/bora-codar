@@ -1,6 +1,6 @@
-# 00-default
+# 20-gallery
 
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
+>Desenvolva uma galeria de fotos interativa
 
 
 ## Tecnologias
