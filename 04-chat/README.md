@@ -1,7 +1,5 @@
-# 00-default
-
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
-
+# 04-chat
+> Desenvolva um chat mobile/desktop, que pode ser responsivo. Você pode ir além e adicionar animações, ou mesmo implementar um chat funcional.
 
 ## Tecnologias
 - HTML;
