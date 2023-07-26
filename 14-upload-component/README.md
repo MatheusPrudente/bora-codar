@@ -1,7 +1,6 @@
-# 00-default
+# 14-upload-component
 
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
-
+>Desenvolva um componente de upload
 
 ## Tecnologias
 - HTML;
