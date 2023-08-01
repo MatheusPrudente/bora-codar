@@ -45,3 +45,4 @@ Resultados dos desafios:
 | Semana 26 | June Recipe | #boraCodar uma receita junina | [June Recipe](https://github.com/MatheusPrudente/bora-codar/tree/main/26-june-recipe) |
 | Semana 27 | Page Not Found | #boraCodar uma página de erro 404 | [Page Not Found](https://github.com/MatheusPrudente/bora-codar/tree/main/27-page-not-found) |
 | Semana 28 | IA Home Screen | #boraCodar uma plataforma de IA | [IA Home Screen](https://github.com/MatheusPrudente/bora-codar/tree/main/28-ia-home-screen) |
+| Semana 29 | Before After IA | #boraCodar um antes e depois com IA | [Before After IA](https://github.com/MatheusPrudente/bora-codar/tree/main/29-before-after-ia) |
