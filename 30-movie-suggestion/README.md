@@ -1,7 +1,9 @@
-# 00-default
+# 30-movie-suggestion
 
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
+>Desenvolva um gerador de sugestão de filmes com inteligência artificial
 
+## Preview
+![project-31](https://github.com/MatheusPrudente/bora-codar/assets/80559882/5425f668-47e5-4d89-aabe-2adfecd2eba6)
 
 ## Tecnologias
 - HTML;
