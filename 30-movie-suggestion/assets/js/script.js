@@ -1,5 +1,3 @@
-// https://developer.themoviedb.org/reference/movie-popular-list
-
 function getAuthorization() {
   return 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1NDk2NzJmZmJhNjc2ZTY3M2I0NThhNjRhNTlmM2ViMSIsInN1YiI6IjY0ZDFjNjlhOTQ1ZDM2MDEzOTRlZGVkYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.d9VbTvwI3A-5us7FALA2cAgaAWFd7XE_ieXJKKwADPQ';
 }
@@ -22,8 +20,6 @@ async function getMovies() {
 
 }
 
-// puxar informações extras do filme
-// https://api.themoviedb.org/3/movie/{movie_id}
 async function getMoreInfo(id) {
   const options = {
     method: 'GET',
@@ -41,8 +37,6 @@ async function getMoreInfo(id) {
   }
 }
 
-// quando clicar no botão de assistir trailer
-// https://api.themoviedb.org/3/movie/{movie_id}/videos
 async function watch(e) {
   const movie_id = e.currentTarget.dataset.id
 
@@ -62,7 +56,7 @@ async function watch(e) {
     window.open(`https://youtube.com/watch?v=${youtubeVideo.key}`, 'blank')
 
   } catch (error) {
-    console.log(error)
+    console.error(error)
   }
 
 }
@@ -116,7 +110,7 @@ function minutesToHourMinutesAndSeconds(minutes) {
 }
 
 async function start() {
-  const { results } = await getMovies()
+  const { results } = await getMovies();
   const best3 = select3Videos(results).map(async movie => {
     const info = await getMoreInfo(movie)
 
@@ -129,14 +123,11 @@ async function start() {
       year: info.release_date.slice(0, 4)
     }
 
-    console.log(props);
     return createMovieLayout(props)
   })
 
   const output = await Promise.all(best3)
 
-
-  // substituir o conteúdo dos movies lá no html
   document.querySelector('.movies').innerHTML = output.join("")
 }
 
