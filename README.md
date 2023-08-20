@@ -46,3 +46,4 @@ Resultados dos desafios:
 | Semana 27 | Page Not Found | #boraCodar uma página de erro 404 | [Page Not Found](https://github.com/MatheusPrudente/bora-codar/tree/main/27-page-not-found) |
 | Semana 28 | IA Home Screen | #boraCodar uma plataforma de IA | [IA Home Screen](https://github.com/MatheusPrudente/bora-codar/tree/main/28-ia-home-screen) |
 | Semana 29 | Before After IA | #boraCodar um antes e depois com IA | [Before After IA](https://github.com/MatheusPrudente/bora-codar/tree/main/29-before-after-ia) |
+| Semana 30 | Movie Suggestion | #boraCodar Gerador de sugestão de filmes com IA | [Movie Suggestion](https://github.com/MatheusPrudente/bora-codar/tree/main/30-movie-suggestion) |
