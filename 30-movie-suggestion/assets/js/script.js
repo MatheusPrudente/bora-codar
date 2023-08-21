@@ -1,3 +1,9 @@
+const recommendationButton = document.querySelector("#recommendation-button");
+const recommendationButtonContent = {
+  newRecommendation : `<div><p>Nova recomendação</p><img src="./assets/images/generate.svg" alt=""></div>`,
+  generatingRecommendation : `<div><p>Gerando...</p><img src="./assets/images/loading.svg" alt=""></div>`
+}
+
 function getAuthorization() {
   return 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1NDk2NzJmZmJhNjc2ZTY3M2I0NThhNjRhNTlmM2ViMSIsInN1YiI6IjY0ZDFjNjlhOTQ1ZDM2MDEzOTRlZGVkYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.d9VbTvwI3A-5us7FALA2cAgaAWFd7XE_ieXJKKwADPQ';
 }
@@ -92,11 +98,11 @@ function createMovieLayout({id,title,stars,image,time,year}) {
   `
 }
 
-function select3Videos(results) {
+function selectRandomVideos(results, max) {
   const random = ()=> Math.floor(Math.random() * results.length)
 
   let selectedVideos = new Set()
-  while(selectedVideos.size < 3) {
+  while(selectedVideos.size < max) {
     selectedVideos.add(results[random()].id)
   }
 
@@ -110,10 +116,10 @@ function minutesToHourMinutesAndSeconds(minutes) {
 }
 
 async function start() {
+  recommendationButton.innerHTML = recommendationButtonContent.generatingRecommendation;
   const { results } = await getMovies();
-  const best3 = select3Videos(results).map(async movie => {
+  const best = selectRandomVideos(results, 3).map(async movie => {
     const info = await getMoreInfo(movie)
-
     const props = {
       id: info.id,
       title: info.title,
@@ -126,9 +132,12 @@ async function start() {
     return createMovieLayout(props)
   })
 
-  const output = await Promise.all(best3)
+  const output = await Promise.all(best);
 
-  document.querySelector('.movies').innerHTML = output.join("")
+  document.querySelector('.movies').innerHTML = output.join("");
+  recommendationButton.innerHTML = recommendationButtonContent.newRecommendation;
 }
 
-start()
+document.addEventListener('DOMContentLoaded', function() {
+  start();
+}, false);
