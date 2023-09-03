@@ -47,3 +47,8 @@ Resultados dos desafios:
 | Semana 28 | IA Home Screen | #boraCodar uma plataforma de IA | [IA Home Screen](https://github.com/MatheusPrudente/bora-codar/tree/main/28-ia-home-screen) |
 | Semana 29 | Before After IA | #boraCodar um antes e depois com IA | [Before After IA](https://github.com/MatheusPrudente/bora-codar/tree/main/29-before-after-ia) |
 | Semana 30 | Movie Suggestion | #boraCodar Gerador de sugestão de filmes com IA | [Movie Suggestion](https://github.com/MatheusPrudente/bora-codar/tree/main/30-movie-suggestion) |
+| Semana 31 | Youtube Transcription | #boraCodar Transcrição de vídeo com IA | [Youtube Transcription](https://github.com/MatheusPrudente/bora-codar/tree/main/31-youtube-transcription) |
+| Semana 32 | SQL Translation App | #boraCodar um app de tradução de SQL com IA | [SQL Translation App](https://github.com/MatheusPrudente/bora-codar/tree/main/32-sql-translation-app) |
+| Semana 33 | Ticket Generator | #boraCodar Gerador de Ticket | [Ticket Generator](https://github.com/MatheusPrudente/bora-codar/tree/main/33-ticket-generator) |
+
+
