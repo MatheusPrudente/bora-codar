@@ -1,0 +1,233 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+
+  background: url('../images/img-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: var(--gray-light, #F3F4FE);
+
+  justify-content: center;
+}
+
+body * {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  height: 100vh;
+
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  width: 490px;
+  height: 366px;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  line-height: 130%;
+  text-transform: uppercase;
+
+  background: var(--linear, linear-gradient(90deg, #DEE0FC 0%, #996DFF 51.04%, #BC9FFF 100%));
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  max-width: 350px;
+  margin-bottom: 35px;
+}
+
+label {
+  color: var(--gray-light, #F3F4FE);
+
+  font-size: 1.25rem;
+  line-height: 160%;
+  text-transform: uppercase;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+
+  background: var(--gray-light, #F3F4FE);
+
+  padding: 1rem .75rem;
+
+  border: 1px solid #E1E1E6;
+}
+
+input {
+  border: none;
+  outline: none;
+
+  width: 100%;
+
+  color: var(--gray-dark, #202024);
+  background: var(--gray-light, #F3F4FE);
+
+  font-family: "Roboto", sans-serif;
+  font-size: .875rem;
+  line-height: 160%;
+}
+
+input::placeholder {
+  color: var(--gray-dark, #202024);
+
+  font-family: "Roboto", sans-serif;
+  font-size: .875rem;
+  line-height: 160%;
+}
+
+#error {
+  color: var(--danger, #FF8F8F);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  line-height: 160%;
+
+  display: none;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  padding: 22px 40px;
+
+  background: var(--purple-normal, #8860E6);
+  color: var(--neutral-colors-white, #FFF);
+
+  cursor: pointer;
+
+  border: 0;
+
+  font-family: "Roboto", sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  transition: background 200ms;
+}
+
+button:hover {
+  background-color: #5B409B;
+}
+
+.ticket {
+  display: flex;
+
+  background-image: url('../images/bg-card-ticket.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 694px;
+  height: 408.64px;
+}
+
+.ticket-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 45px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: .75rem;
+
+  background: var(--gray-light, #F3F4FE);
+  color: var(--gray-dark, #202024);
+}
+
+.user-ticket-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+
+  margin-bottom: 2.25rem;
+}
+
+.user-ticket-info span {
+  color: var(--purple-normal, #8860E6);
+
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: 1.26px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.user-ticket-info h1 {
+  color: var(--gray-dark, #202024);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 125%;
+  text-align: center;
+}
+
+.user-ticket-info img {
+  width: 127px;
+  height: 128px;
+
+  border-radius: 63.5px;
+}
+
+.event-ticket-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.event-ticket-info span {
+  color: var(--gray-dark, #202024);
+
+  font-size: .625rem;
+  font-weight: 500;
+  line-height: 1rem;
+  letter-spacing: 1.05px;
+  text-transform: uppercase;
+}
+
+.event-ticket-info span:nth-child(2) {
+  color: var(--gray-dark, #202024);
+
+  font-size: .625rem;
+  font-weight: 700;
+  line-height: 1rem;
+  letter-spacing: 1.05px;
+  text-transform: uppercase;
+}

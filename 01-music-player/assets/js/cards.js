@@ -4,53 +4,31 @@ let mouseStillDown = false;
 let selectMusic;
 
 function createCard(options, music) {
-  let card = document.createElement("div");
-  card.setAttribute('id',options.id);
+  console.log("OPTIONS", options);
+  console.log("MUSIC", music);
 
-  options.classNames.forEach((className)=> {
-    card.classList.add(className);
-  });
-
-  let wrapper = document.createElement("div");
-  wrapper.classList.add("wrapper");
-
-  let thumbnail = document.createElement("img");
-  thumbnail.loading = "lazy";
-  thumbnail.src = music.thumbnail || "./assets/images/default.png";
-  thumbnail.alt = `Capa do Musica - ${music.name} - ${music.band}`;
-
-  if(options.orientation == "horizontal") {
-    let infoWrapper = document.createElement("div");
-    infoWrapper.classList.add("info-wrapper");
-    infoWrapper.appendChild(thumbnail);
-
-    if(options.show.information) {
-      infoWrapper.appendChild(createInformation(music));
-    }
-    wrapper.appendChild(infoWrapper);
-  } else {
-    wrapper.appendChild(thumbnail);
-
-    if(options.show.information) {
-      wrapper.appendChild(createInformation(music));
-    }
-  }
-
-  if(options.show.trackTime) {
-    wrapper.appendChild(createTrackTime());
-  }
-
-  if(options.show.controls) {
-    wrapper.appendChild(createControls());
-  }
-
-  card.appendChild(wrapper);
-  card.addEventListener("click",() => {
-    selectMusic = music;
-    if(selectMusic) {
-      switchToMusicPlayer();
-    }
-  });
+  let card =
+  `<div id="${options.id}" class="${options.classNames.join(" ")}">
+    <div class="wrapper">
+      <img loading="lazy" src="${music.thumbnail || "./assets/images/default.png"}" alt="Capa do Musica - ${music.name} - ${music.band}">
+      <div class="info">
+        <h1>${music.band}</h1>
+        <p>${music.name}</p>
+      </div>
+      <div class="track-time">
+        <div class="track"></div>
+        <div class="time">
+          <div class="total-time">03:20</div>
+          <div class="last-time">00:12</div>
+        </div>
+      </div>
+      <div class="controls">
+        <div class="prev"><img src="./assets/images/prev.svg"></div>
+        <div class="play"><img src="./assets/images/play.svg"></div>
+        <div class="next"><img src="./assets/images/next.svg"></div>
+      </div>
+    </div>
+  </div>`;
   return card;
 }
 

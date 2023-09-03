@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <title>Ticket Generator - Boracodar #33</title>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>gere seu ticket e compartilhe com o mundo</h1>
+      <label for="username">Digite seu usuário do GitHub</label>
+      <div class="input">
+        <img src="./assets/images/img-avatar.png" alt="">
+        <input type="text" id="username" placeholder="Nome de usuário" autocomplete="off" autocapitalize="off">
+      </div>
+      <span id="error">Usuário inválido. Verifique e tente novamente.</span>
+      <button type="button">GERAR MEU TICKET</button>
+    </div>
+    <div class="ticket">
+      <div class="ticket-container">
+        <img src="./assets/images/img-cover-ticket.png" alt="">
+        <div class="info">
+          <div class="user-ticket-info">
+            <img src="./assets/images/img-avatar.png" alt="" id="photo">
+            <span>TRIPULANTE</span>
+            <h1 id="name">Seu nome aqui</h1>
+          </div>
+          <div class="event-ticket-info">
+            <span>EVENTO</span>
+            <span>IA PARA DEVS</span>
+          </div>
+          <div class="event-ticket-info">
+            <span>DATA</span>
+            <span>14 - 16 AGO. 2023</span>
+          </div>
+          <div class="event-ticket-info">
+            <span>HORA</span>
+            <span>AO VIVO - 19H</span>
+          </div>
+          <img src="./assets/images/lines-svg.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/script.js" defer></script>
+</body>
+</html>

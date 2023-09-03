@@ -15,7 +15,7 @@ function loadMusicCollection() {
   for (let index = 0; index < options.length; index++) {
     const option = options[index];
     const music = musics[index];
-    appColection.append(createCard(option, music));
+    appColection.innerHTML += createCard(option, music);
   }
 }
 
