@@ -50,5 +50,5 @@ Resultados dos desafios:
 | Semana 31 | Youtube Transcription | #boraCodar Transcrição de vídeo com IA | [Youtube Transcription](https://github.com/MatheusPrudente/bora-codar/tree/main/31-youtube-transcription) |
 | Semana 32 | SQL Translation App | #boraCodar um app de tradução de SQL com IA | [SQL Translation App](https://github.com/MatheusPrudente/bora-codar/tree/main/32-sql-translation-app) |
 | Semana 33 | Ticket Generator | #boraCodar Gerador de Ticket | [Ticket Generator](https://github.com/MatheusPrudente/bora-codar/tree/main/33-ticket-generator) |
-
+| Semana 34 | Shopping List | #boraCodar uma lista de compras | [Shopping List](https://github.com/MatheusPrudente/bora-codar/tree/main/34-shopping-list) |
 

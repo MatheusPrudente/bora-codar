@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/script.js" defer></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <title>Shopping List - Boracodar #34</title>
+</head>
+<body>
+  <h1>Shopping list</h1>
+  <form action="">
+      <div class="select">
+          <div id="category-select">
+              <label for="options-view-button">Categoria</label>
+              <input type="checkbox" id="options-view-button" />
+
+              <div id="select-button">
+                  <div id="selected-value">Selecione a categoria</div>
+
+                  <div id="chevrons">
+                      <i data-lucide="chevron-down"></i>
+                      <i data-lucide="chevron-up"></i>
+                  </div>
+              </div>
+          </div>
+
+          <ul id="options">
+              <li class="option">
+                  <input type="radio" name="category" value="bakery" data-label="Padaria" />
+
+                  <i data-lucide="sandwich"></i>
+                  <span class="label">Padaria</span>
+                  <i data-lucide="check"></i>
+              </li>
+
+              <li class="option">
+                  <input type="radio" name="category" value="vegetable" data-label="Legume" />
+
+                  <i data-lucide="carrot"></i>
+                  <span class="label">Legume</span>
+                  <i data-lucide="check"></i>
+              </li>
+
+              <li class="option">
+                  <input type="radio" name="category" value="meat" data-label="Carne" />
+
+                  <i data-lucide="beef"></i>
+                  <span class="label">Carne</span>
+                  <i data-lucide="check"></i>
+              </li>
+
+              <li class="option">
+                  <input type="radio" name="category" value="fruit" data-label="Fruta" />
+
+                  <i data-lucide="apple"></i>
+                  <span class="label">Fruta</span>
+                  <i data-lucide="check"></i>
+              </li>
+
+              <li class="option">
+                  <input type="radio" name="category" value="drink" data-label="Bebida" />
+
+                  <i data-lucide="milk"></i>
+                  <span class="label">Bebida</span>
+                  <i data-lucide="check"></i>
+              </li>
+          </ul>
+      </div>
+  </form>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</body>
+</html>
