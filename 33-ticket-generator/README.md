@@ -1,7 +1,8 @@
-# 00-default
-
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
-
+# 33-ticket-generator
+>Crie uma página para gerar tickets personalizados através de um perfil público do GitHub. No desenvolvimento você pode ir além do proposto, utilizando a sua criatividade.
+>
+## Preview
+![image](https://github.com/user-attachments/assets/ba957322-9689-4523-b13d-a30b24269240)
 
 ## Tecnologias
 - HTML;
