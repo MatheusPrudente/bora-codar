@@ -1,6 +1,8 @@
-# 00-default
-
->O #boraCodar é um projeto da Rocketseat com o objetivo de  estimular a prática de programação semanal e ajudar na criação de projetos para portifólio.
+# 33-shopping-list
+>Desenvolva uma página com itens de uma lista de compras. No desenvolvimento você pode ir além do proposto, fazendo a criação ou edição funcional dos itens, por exemplo.
+>
+## Preview
+![image](https://github.com/user-attachments/assets/570e6bc2-1523-42f4-8f57-1d34b3009a34)
 
 
 ## Tecnologias
