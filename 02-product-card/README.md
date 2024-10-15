@@ -2,7 +2,7 @@
 > Desenvolva o card de produto conforme especificado utilizando as tecnologias da sua preferência.
 
 ## Preview
-![image](https://github.com/MatheusPrudente/bora-codar/assets/80559882/62a1122b-690b-4b4c-9201-46db43423c89)
+![image](https://github.com/user-attachments/assets/dee23065-b306-4735-b903-29366301a4cd)
 
 ## Tecnologias
 - HTML;
