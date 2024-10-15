@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --bg-color: #f6f6f4;
+  --text-color: #271a45;
+}
+
+body {
+  background-color: var(--bg-color);
+  height: 100vh;
+
+  display: grid;
+  place-content: center;
+}
+
+body * {
+  color: var(--text-color);
+  font-family: "Lato", sans-serif;
+  line-height: 100%;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 10px;
+}
+
+h1 {
+  font-family: "Crimson Pro", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+
+  margin-top: 12px;
+}
+
+p {
+  margin-top: 12px;
+  opacity: 0.67;
+}
+
+#btn-close,
+#animated {
+  display: none;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  gap: 3.938rem;
+}
+
+#product-image {
+  position: relative;
+}
+
+html.animated button#btn-360,
+html.animated img#static {
+  display: initial;
+}
+
+html.animated button#btn-close,
+html.animated img#animated {
+  display: initial;
+}
+
+#product-single-image > img {
+  width: 449px;
+  height: 222px;
+  object-fit: cover;
+}
+
+#product-all-images {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#product-all-images > img {
+  max-width: 5rem !important;
+  max-height: 5rem !important;
+  cursor: pointer;
+}
+
+#product-details button {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px 16px;
+  border: 0.5px solid var(--text-color);
+  border-radius: 999px;
+  background-color: transparent;
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+#product-details button:hover{
+  color: #fff !important;
+  background-color: var(--text-color);
+  transition: ease-in-out 0.5s;
+}
+
+#product-details-colors {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-details-color {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.product-details-color-circle-fill {
+  border-radius: 8.5px;height: 17px;width: 17px;float: left;margin: 2px;
+}
+
+@media (max-width: 800px) {
+  #app {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    margin: auto;
+    height: auto;
+    padding-block: 60px;
+  }
+
+  .horizontal .controls {
+    padding-inline: 30px;
+  }
+}

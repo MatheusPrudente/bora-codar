@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="animated">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card - BoraCodar #02</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <div id="product-image">
+        <div id="product-single-image">
+          <img id="static" src="./assets/images/margot_dark_grey.jpg" alt="sofa" />
+        </div>
+        <div id="product-all-images"></div>
+      </div>
+      <div id="product-details">
+        <h4>CÓDIGO: <span id="product-details-code">42404</span></h4>
+        <h1 id="product-details-name">Sofá Margot II</h1>
+        <h3 id="product-details-color">Rosé</h2>
+        <p id="product-details-price">R$ 4.000</p>
+        <div id="product-details-colors">
+          <span class="product-details-color" data-code='42404' data-color="#774a41" role="button" style="color: #774a41">
+            <span class="product-details-color-circle-fill active" data-code='42404'  data-color="#774a41" style="background-color: #774a41;">
+            </span>
+          </span>
+          <span class="product-details-color" data-code='42405' role="button" data-color="#414141" style="color: #414141">
+            <span class="product-details-color-circle-fill" data-color="#414141" style="background-color: #414141;">
+              <span class="product-details-color-circle-border" data-code='42405'></span>
+            </span>
+          </span>
+          <span class="product-details-color" data-code='42406' role="button" data-color="#192B1A" style="color: #192B1A">
+            <span class="product-details-color-circle-fill" style="background-color: #192B1A;">
+              <span class="product-details-color-circle-border" data-code='42406' data-color="#192B1A"></span>
+            </span>
+          </span>
+          <span class="product-details-color" data-code='42407' role="button" data-color="#223C3D"style="color: #223C3D">
+            <span class="product-details-color-circle-fill" data-code='42408' data-color="#223C3D" style="background-color: #223C3D;">
+            </span>
+          </span>
+          <span class="product-details-color" data-code='42408' role="button" data-color="#1D2433" style="color: #1D2433;">
+            <span class="product-details-color-circle-fill" data-code='42408' data-color="#1D2433"  style="background-color: #1D2433;">
+            </span>
+          </span>
+          <span class="product-details-color" data-code='42409' role="button" data-color="#9E772A" style="color: #9E772A;">
+            <span class="product-details-color-circle-fill" data-code='42409'data-color="#9E772A" style="background-color: #9E772A;">
+            </span>
+          </span>
+        </div>
+        <button>ADICIONAR À CESTA</button>
+      </div>
+    </div>
+  </body>
+</html>
