@@ -51,7 +51,7 @@ Resultados dos desafios:
 | Semana 32 | SQL Translation App | #boraCodar um app de tradução de SQL com IA | |
 | Semana 33 | Ticket Generator | #boraCodar Gerador de Ticket | [Ticket Generator](https://github.com/MatheusPrudente/bora-codar/tree/main/33-ticket-generator) |
 | Semana 34 | Shopping List | #boraCodar uma lista de compras | [Shopping List](https://github.com/MatheusPrudente/bora-codar/tree/main/34-shopping-list)|
-| Semana 35 | Drink Water Reminder | #boraCodar um reminder para beber água |  |
+| Semana 35 | Drink Water Reminder | #boraCodar um reminder para beber água | [Drink Water Reminder](https://github.com/MatheusPrudente/bora-codar/tree/main/35-drink-water-reminder) |
 | Semana 36 | Nutritional Table | #boraCodar uma tabela nutricional |  |
 | Semana 37 | Smartwatch Sleep APP | #boraCodar um app de sono para smartwatch |  |
 | Semana 38 | Cards Quiz | #boraCodar um quiz de cards com imagem |  |
