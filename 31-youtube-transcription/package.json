@@ -10,7 +10,7 @@
     "server": "node server/index.js"
   },
   "devDependencies": {
-    "vite": "^4.4.5"
+    "vite": "^4.5.5"
   },
   "dependencies": {
     "@xenova/transformers": "^2.5.2",
