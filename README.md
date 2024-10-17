@@ -53,7 +53,7 @@ Resultados dos desafios:
 | Semana 34 | Shopping List | #boraCodar uma lista de compras | [Shopping List](https://github.com/MatheusPrudente/bora-codar/tree/main/34-shopping-list)|
 | Semana 35 | Drink Water Reminder | #boraCodar um reminder para beber água | [Drink Water Reminder](https://github.com/MatheusPrudente/bora-codar/tree/main/35-drink-water-reminder) |
 | Semana 36 | Nutritional Table | #boraCodar uma tabela nutricional |  |
-| Semana 37 | Smartwatch Sleep APP | #boraCodar um app de sono para smartwatch |  |
+| Semana 37 | Smartwatch Sleep APP | #boraCodar um app de sono para smartwatch | [Smartwatch Sleep APP](https://github.com/MatheusPrudente/bora-codar/tree/main/37-smartwatch-sleep-APP)|
 | Semana 38 | Cards Quiz | #boraCodar um quiz de cards com imagem |  |
 | Semana 39 | Product Rating Widget | #boraCodar um widget de avaliação de produto |  |
 | Semana 40 | Newsletter Page | #boraCodar uma página de newsletter |  |
