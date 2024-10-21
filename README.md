@@ -55,6 +55,6 @@ Resultados dos desafios:
 | Semana 36 | Nutritional Table | #boraCodar uma tabela nutricional |  |
 | Semana 37 | Smartwatch Sleep APP | #boraCodar um app de sono para smartwatch | [Smartwatch Sleep APP](https://github.com/MatheusPrudente/bora-codar/tree/main/37-smartwatch-sleep-APP)|
 | Semana 38 | Cards Quiz | #boraCodar um quiz de cards com imagem |  |
-| Semana 39 | Product Rating Widget | #boraCodar um widget de avaliação de produto |  |
+| Semana 39 | Product Rating Widget | #boraCodar um widget de avaliação de produto | [Product Rating Widget](https://github.com/MatheusPrudente/bora-codar/tree/main/39-product-rating-widget) |
 | Semana 40 | Newsletter Page | #boraCodar uma página de newsletter |  |
 
